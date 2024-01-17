@@ -1,0 +1,1143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Course Library.meta
+    - Assets/Course Library/Characters.meta
+    - Assets/Course Library/Characters/Farm.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab.meta
+    - Assets/Course Library/Characters/Town.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab.meta
+    - Assets/Course Library/Obstacles.meta
+    - Assets/Course Library/Obstacles/Barrel_01.prefab
+    - Assets/Course Library/Obstacles/Barrel_01.prefab.meta
+    - Assets/Course Library/Obstacles/Barrel_02.prefab
+    - Assets/Course Library/Obstacles/Barrel_02.prefab.meta
+    - Assets/Course Library/Obstacles/Crate_01.prefab
+    - Assets/Course Library/Obstacles/Crate_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab.meta
+    - Assets/Course Library/Particles.meta
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab.meta
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab.meta
+    - Assets/Course Library/Sound.meta
+    - Assets/Course Library/Sound/Music.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg.meta
+    - Assets/Course Library/Sound/SFX.meta
+    - Assets/Course Library/Sound/SFX/crash1.wav
+    - Assets/Course Library/Sound/SFX/crash1.wav.meta
+    - Assets/Course Library/Sound/SFX/crash2.wav
+    - Assets/Course Library/Sound/SFX/crash2.wav.meta
+    - Assets/Course Library/Sound/SFX/crash3.wav
+    - Assets/Course Library/Sound/SFX/crash3.wav.meta
+    - Assets/Course Library/Sound/SFX/jump1.wav
+    - Assets/Course Library/Sound/SFX/jump1.wav.meta
+    - Assets/Course Library/Sound/SFX/jump2.wav
+    - Assets/Course Library/Sound/SFX/jump2.wav.meta
+    - Assets/Course Library/Sound/SFX/jump3.wav
+    - Assets/Course Library/Sound/SFX/jump3.wav.meta
+    - Assets/Course Library/_Source_Files.meta
+    - Assets/Course Library/_Source_Files/FBX.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx.meta
+    - Assets/Course Library/_Source_Files/Materials.meta
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader.meta
+    - Assets/Course Library/_Source_Files/Misc.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx.meta
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta
+    - Assets/Course Library/_Source_Files/Textures.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png.meta
+    - Assets/Course Library/_Source_Files/_LICENSE.txt
+    - Assets/Course Library/_Source_Files/_LICENSE.txt.meta
+    - Assets/Ground textures pack.meta
+    - Assets/Ground textures pack/Dry ground.meta
+    - Assets/Ground textures pack/Dry ground/Dry ground pattern.mat
+    - Assets/Ground textures pack/Dry ground/Dry ground pattern.mat.meta
+    - Assets/Ground textures pack/Dry ground/diffuse.tga
+    - Assets/Ground textures pack/Dry ground/diffuse.tga.meta
+    - Assets/Ground textures pack/Dry ground/normal.tga
+    - Assets/Ground textures pack/Dry ground/normal.tga.meta
+    - Assets/Ground textures pack/Dry ground/preview.jpg
+    - Assets/Ground textures pack/Dry ground/preview.jpg.meta
+    - Assets/Ground textures pack/Grass & dead leafs 01.meta
+    - Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern
+      01.mat
+    - Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern
+      01.mat.meta
+    - Assets/Ground textures pack/Grass & dead leafs 01/diffuse.tga
+    - Assets/Ground textures pack/Grass & dead leafs 01/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass & dead leafs 01/normal.tga
+    - Assets/Ground textures pack/Grass & dead leafs 01/normal.tga.meta
+    - Assets/Ground textures pack/Grass & dead leafs 01/preview.jpg
+    - Assets/Ground textures pack/Grass & dead leafs 01/preview.jpg.meta
+    - Assets/Ground textures pack/Grass & dead leafs 02.meta
+    - Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern
+      02.mat
+    - Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern
+      02.mat.meta
+    - Assets/Ground textures pack/Grass & dead leafs 02/diffuse.tga
+    - Assets/Ground textures pack/Grass & dead leafs 02/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass & dead leafs 02/normal.tga
+    - Assets/Ground textures pack/Grass & dead leafs 02/normal.tga.meta
+    - Assets/Ground textures pack/Grass & dead leafs 02/preview.jpg
+    - Assets/Ground textures pack/Grass & dead leafs 02/preview.jpg.meta
+    - Assets/Ground textures pack/Grass & rocks.meta
+    - Assets/Ground textures pack/Grass & rocks/Grass & rocks pattern.mat
+    - Assets/Ground textures pack/Grass & rocks/Grass & rocks pattern.mat.meta
+    - Assets/Ground textures pack/Grass & rocks/diffuse.tga
+    - Assets/Ground textures pack/Grass & rocks/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass & rocks/normal.tga
+    - Assets/Ground textures pack/Grass & rocks/normal.tga.meta
+    - Assets/Ground textures pack/Grass & rocks/preview.jpg
+    - Assets/Ground textures pack/Grass & rocks/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 01.meta
+    - Assets/Ground textures pack/Grass 01/Grass pattern 01.mat
+    - Assets/Ground textures pack/Grass 01/Grass pattern 01.mat.meta
+    - Assets/Ground textures pack/Grass 01/diffuse.tga
+    - Assets/Ground textures pack/Grass 01/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 01/normal.tga
+    - Assets/Ground textures pack/Grass 01/normal.tga.meta
+    - Assets/Ground textures pack/Grass 01/preview.jpg
+    - Assets/Ground textures pack/Grass 01/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 02.meta
+    - Assets/Ground textures pack/Grass 02/Grass pattern 02.mat
+    - Assets/Ground textures pack/Grass 02/Grass pattern 02.mat.meta
+    - Assets/Ground textures pack/Grass 02/diffuse.tga
+    - Assets/Ground textures pack/Grass 02/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 02/normal.tga
+    - Assets/Ground textures pack/Grass 02/normal.tga.meta
+    - Assets/Ground textures pack/Grass 02/preview.jpg
+    - Assets/Ground textures pack/Grass 02/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 03.meta
+    - Assets/Ground textures pack/Grass 03/Grass pattern 03.mat
+    - Assets/Ground textures pack/Grass 03/Grass pattern 03.mat.meta
+    - Assets/Ground textures pack/Grass 03/diffuse.tga
+    - Assets/Ground textures pack/Grass 03/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 03/normal.tga
+    - Assets/Ground textures pack/Grass 03/normal.tga.meta
+    - Assets/Ground textures pack/Grass 03/preview.jpg
+    - Assets/Ground textures pack/Grass 03/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 04.meta
+    - Assets/Ground textures pack/Grass 04/Grass pattern 04.mat
+    - Assets/Ground textures pack/Grass 04/Grass pattern 04.mat.meta
+    - Assets/Ground textures pack/Grass 04/diffuse.tga
+    - Assets/Ground textures pack/Grass 04/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 04/normal.tga
+    - Assets/Ground textures pack/Grass 04/normal.tga.meta
+    - Assets/Ground textures pack/Grass 04/preview.jpg
+    - Assets/Ground textures pack/Grass 04/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 05.meta
+    - Assets/Ground textures pack/Grass 05/Grass pattern 05.mat
+    - Assets/Ground textures pack/Grass 05/Grass pattern 05.mat.meta
+    - Assets/Ground textures pack/Grass 05/diffuse.tga
+    - Assets/Ground textures pack/Grass 05/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 05/normal.tga
+    - Assets/Ground textures pack/Grass 05/normal.tga.meta
+    - Assets/Ground textures pack/Grass 05/preview.jpg
+    - Assets/Ground textures pack/Grass 05/preview.jpg.meta
+    - Assets/Ground textures pack/Grass 06.meta
+    - Assets/Ground textures pack/Grass 06/Grass pattern 06.mat
+    - Assets/Ground textures pack/Grass 06/Grass pattern 06.mat.meta
+    - Assets/Ground textures pack/Grass 06/diffuse.tga
+    - Assets/Ground textures pack/Grass 06/diffuse.tga.meta
+    - Assets/Ground textures pack/Grass 06/normal.tga
+    - Assets/Ground textures pack/Grass 06/normal.tga.meta
+    - Assets/Ground textures pack/Grass 06/preview.jpg
+    - Assets/Ground textures pack/Grass 06/preview.jpg.meta
+    - Assets/Ground textures pack/Ground & moss.meta
+    - Assets/Ground textures pack/Ground & moss/Ground & moss pattern.mat
+    - Assets/Ground textures pack/Ground & moss/Ground & moss pattern.mat.meta
+    - Assets/Ground textures pack/Ground & moss/diffuse.tga
+    - Assets/Ground textures pack/Ground & moss/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground & moss/normal.tga
+    - Assets/Ground textures pack/Ground & moss/normal.tga.meta
+    - Assets/Ground textures pack/Ground & moss/preview.jpg
+    - Assets/Ground textures pack/Ground & moss/preview.jpg.meta
+    - Assets/Ground textures pack/Ground & rocks 01.meta
+    - Assets/Ground textures pack/Ground & rocks 01/Ground & rocks pattern 01.mat
+    - Assets/Ground textures pack/Ground & rocks 01/Ground & rocks pattern 01.mat.meta
+    - Assets/Ground textures pack/Ground & rocks 01/diffuse.tga
+    - Assets/Ground textures pack/Ground & rocks 01/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 01/normal.tga
+    - Assets/Ground textures pack/Ground & rocks 01/normal.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 01/preview.jpg
+    - Assets/Ground textures pack/Ground & rocks 01/preview.jpg.meta
+    - Assets/Ground textures pack/Ground & rocks 02.meta
+    - Assets/Ground textures pack/Ground & rocks 02/Ground & rocks pattern 02.mat
+    - Assets/Ground textures pack/Ground & rocks 02/Ground & rocks pattern 02.mat.meta
+    - Assets/Ground textures pack/Ground & rocks 02/diffuse.tga
+    - Assets/Ground textures pack/Ground & rocks 02/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 02/normal.tga
+    - Assets/Ground textures pack/Ground & rocks 02/normal.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 02/preview.jpg
+    - Assets/Ground textures pack/Ground & rocks 02/preview.jpg.meta
+    - Assets/Ground textures pack/Ground & rocks 03.meta
+    - Assets/Ground textures pack/Ground & rocks 03/Ground & rocks pattern 03.mat
+    - Assets/Ground textures pack/Ground & rocks 03/Ground & rocks pattern 03.mat.meta
+    - Assets/Ground textures pack/Ground & rocks 03/diffuse.tga
+    - Assets/Ground textures pack/Ground & rocks 03/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 03/normal.tga
+    - Assets/Ground textures pack/Ground & rocks 03/normal.tga.meta
+    - Assets/Ground textures pack/Ground & rocks 03/preview.jpg
+    - Assets/Ground textures pack/Ground & rocks 03/preview.jpg.meta
+    - Assets/Ground textures pack/Ground & weeds.meta
+    - Assets/Ground textures pack/Ground & weeds/Ground & weeds.mat
+    - Assets/Ground textures pack/Ground & weeds/Ground & weeds.mat.meta
+    - Assets/Ground textures pack/Ground & weeds/Materials.meta
+    - Assets/Ground textures pack/Ground & weeds/Materials/diffuse.mat
+    - Assets/Ground textures pack/Ground & weeds/Materials/diffuse.mat.meta
+    - Assets/Ground textures pack/Ground & weeds/diffuse.tga
+    - Assets/Ground textures pack/Ground & weeds/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground & weeds/normal.tga
+    - Assets/Ground textures pack/Ground & weeds/normal.tga.meta
+    - Assets/Ground textures pack/Ground & weeds/preview.jpg
+    - Assets/Ground textures pack/Ground & weeds/preview.jpg.meta
+    - Assets/Ground textures pack/Ground 01.meta
+    - Assets/Ground textures pack/Ground 01/Ground pattern 01.mat
+    - Assets/Ground textures pack/Ground 01/Ground pattern 01.mat.meta
+    - Assets/Ground textures pack/Ground 01/diffuse.tga
+    - Assets/Ground textures pack/Ground 01/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground 01/normal.tga
+    - Assets/Ground textures pack/Ground 01/normal.tga.meta
+    - Assets/Ground textures pack/Ground 01/preview.jpg
+    - Assets/Ground textures pack/Ground 01/preview.jpg.meta
+    - Assets/Ground textures pack/Ground 02.meta
+    - Assets/Ground textures pack/Ground 02/Ground pattern 02.mat
+    - Assets/Ground textures pack/Ground 02/Ground pattern 02.mat.meta
+    - Assets/Ground textures pack/Ground 02/diffuse.tga
+    - Assets/Ground textures pack/Ground 02/diffuse.tga.meta
+    - Assets/Ground textures pack/Ground 02/normal.tga
+    - Assets/Ground textures pack/Ground 02/normal.tga.meta
+    - Assets/Ground textures pack/Ground 02/preview.jpg
+    - Assets/Ground textures pack/Ground 02/preview.jpg.meta
+    - Assets/Ground textures pack/Lava.meta
+    - Assets/Ground textures pack/Lava/Lava pattern.mat
+    - Assets/Ground textures pack/Lava/Lava pattern.mat.meta
+    - Assets/Ground textures pack/Lava/Materials.meta
+    - Assets/Ground textures pack/Lava/Materials/diffuse.mat
+    - Assets/Ground textures pack/Lava/Materials/diffuse.mat.meta
+    - Assets/Ground textures pack/Lava/diffuse.tga
+    - Assets/Ground textures pack/Lava/diffuse.tga.meta
+    - Assets/Ground textures pack/Lava/emissive.tga
+    - Assets/Ground textures pack/Lava/emissive.tga.meta
+    - Assets/Ground textures pack/Lava/normal.tga
+    - Assets/Ground textures pack/Lava/normal.tga.meta
+    - Assets/Ground textures pack/Lava/preview.jpg
+    - Assets/Ground textures pack/Lava/preview.jpg.meta
+    - Assets/Installed packages.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Documentation - free sample.pdf
+    - Assets/Installed packages/Free Low Poly Desert Pack/Documentation - free sample.pdf.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Bone_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Bone_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Cactus_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Cactus_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Cactus_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Cactus_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Ground_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Ground_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Palm_tree_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Palm_tree_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Plant_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Plant_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Rock_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Rock_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Tree_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Tree_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Well_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Flat Colors/Flat_Well_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Bone_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Bone_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Ground_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Ground_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Palm_tree_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Palm_tree_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Plant_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Plant_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Rock_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Rock_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Tree_02.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Tree_02.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Well_01.fbx
+    - Assets/Installed packages/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Well_01.fbx.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Base Color.mat
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Base Color.mat.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Base Desert Sand.mat
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Base Desert Sand.mat.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Shaders.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Basic.shader
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Basic.shader.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Unlit.shader
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Unlit.shader.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Texture.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Texture/Colors.png
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Texture/Colors.png.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Texture/Desert
+      Sand.png
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Texture/Desert
+      Sand.png.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Vertex Color
+      Unlit.mat
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Vertex Color
+      Unlit.mat.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Vertex Color.mat
+    - Assets/Installed packages/Free Low Poly Desert Pack/Materials/Vertex Color.mat.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Bones.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Bones/Flat_Bone_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Bones/Flat_Bone_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Bones/Mixed_Bone_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Bones/Mixed_Bone_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Constructions.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Constructions/Flat_Well_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Constructions/Flat_Well_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Constructions/Mixed_Well_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Constructions/Mixed_Well_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Cactus_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Cactus_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Cactus_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Cactus_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Plant_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Flat_Plant_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Cactus_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Cactus_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Cactus_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Cactus_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Plant_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Plants/Mixed_Plant_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Rocks.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Rocks/Flat_Rock_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Rocks/Flat_Rock_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Rocks/Mixed_Rock_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Rocks/Mixed_Rock_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Terrain.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Terrain/Flat_Ground_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Terrain/Flat_Ground_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Terrain/Mixed_Ground_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Terrain/Mixed_Ground_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Flat_Palm_tree_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Flat_Palm_tree_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Flat_Tree_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Flat_Tree_02.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Mixed_Palm_tree_01.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Mixed_Palm_tree_01.prefab.meta
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Mixed_Tree_02.prefab
+    - Assets/Installed packages/Free Low Poly Desert Pack/Unity Prefabs/Trees/Mixed_Tree_02.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 1.unity
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 1.unity.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 2.unity
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 2.unity.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 3.unity
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Demo 3.unity.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 1.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 1/CameraTimeline
+      Scene 1.playable
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 1/CameraTimeline
+      Scene 1.playable.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 1/PPS Demo 1.asset
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 1/PPS Demo 1.asset.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 2.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline
+      Scene 2.playable
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline
+      Scene 2.playable.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 3.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 3/CameraTimeline
+      Demo 3.playable
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 3/CameraTimeline
+      Demo 3.playable.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 3/PPS Demo 3.asset
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Scene 3/PPS Demo 3.asset.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Skybox.mat
+    - Assets/Installed packages/LowPoly Environment Pack/Demo/Skybox.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Bush_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Environment_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Environment_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Grass_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Grass_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Grass_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Grass_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Log_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.10.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.10.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.11.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.11.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.14.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.14.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.15.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.15.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.3.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.3.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.4.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.4.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.5.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.5.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.6.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.6.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.7.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.7.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.8.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.8.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.9.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Brown.9.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.3.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.3.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.4.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Gray.4.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.10.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.10.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.11.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.11.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.12.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.12.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.13.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.13.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.3.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.3.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.4.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.4.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.5.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.5.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.6.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.6.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.7.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.7.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.8.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.8.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.9.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Green.9.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.3.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Orange.3.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Pink.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Pink.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Purple.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Purple.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Purple.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Purple.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.1.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.1.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.4.mat
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Materials/Yellow.4.mat.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Mounting_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_4.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_4.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_5.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_5.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_6.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_6.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_7.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Plant_7.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_4.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_4.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_5.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_5.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_6.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Rock_6.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Stone_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Stone_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Terrain_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Terrain_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Terrain_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Terrain_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_1.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_1.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_2.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_2.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_3.fbx
+    - Assets/Installed packages/LowPoly Environment Pack/FBX/Tree_3.fbx.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Bush_3.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Environment_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Environment_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Grass_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Grass_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Grass_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Grass_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Log_3.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Mounting_3.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_3.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_4.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_4.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_5.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_5.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_6.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_6.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_7.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Plant_7.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_3.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_4.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_4.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_5.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_5.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_6.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Rock_6.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Stone_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Stone_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Terrain_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Terrain_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Terrain_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Terrain_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_1.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_1.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_2.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_2.prefab.meta
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_3.prefab
+    - Assets/Installed packages/LowPoly Environment Pack/Prefabs/Tree_3.prefab.meta
+    - Assets/Installed packages/Materials.meta
+    - Assets/Installed packages/Materials/Blue.mat
+    - Assets/Installed packages/Materials/Blue.mat.meta
+    - Assets/Installed packages/Materials/Dark_Green.mat
+    - Assets/Installed packages/Materials/Dark_Green.mat.meta
+    - Assets/Installed packages/Materials/Grey.mat
+    - Assets/Installed packages/Materials/Grey.mat.meta
+    - Assets/Installed packages/Materials/Pink.mat
+    - Assets/Installed packages/Materials/Pink.mat.meta
+    - Assets/Installed packages/Materials/Red.mat
+    - Assets/Installed packages/Materials/Red.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Prefabs.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Prefabs/Char_2.prefab
+    - Assets/Installed packages/Medieval_Toon_Character/Prefabs/Char_2.prefab.meta
+    - Assets/Installed packages/Medieval_Toon_Character/ReadMe.txt
+    - Assets/Installed packages/Medieval_Toon_Character/ReadMe.txt.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Scenes.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Scenes/exampleScene.unity
+    - Assets/Installed packages/Medieval_Toon_Character/Scenes/exampleScene.unity.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Animator_controllers.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Animator_controllers/Unity_Free_anims.controller
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Animator_controllers/Unity_Free_anims.controller.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Black_Material.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Black_Material.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Color_Diffuse.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Color_Diffuse/Character_2.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Color_Diffuse/Character_2.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Color_Diffuse/Expressions_Mat_2.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Custom_Materials/Color_Diffuse/Expressions_Mat_2.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Char_2.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Char_2.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Character_Animations_male.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Character_Animations_male.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_a_open.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_a_open.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_b_mad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_b_mad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_c_sad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_c_sad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_d_midClosed.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_d_midClosed.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_e_Closed.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_e_Closed.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_f_Closed_happy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_f_Closed_happy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_g_Closed_shy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_g_Closed_shy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_h_Closed_mad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/L_eye_h_Closed_mad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Materials.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Materials/defaultMat.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Materials/defaultMat.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_a_Happy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_a_Happy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_b_Terrified.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_b_Terrified.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_c_surprised.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_c_surprised.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_cute.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_cute.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_d_surprised2.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_d_surprised2.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_e_shut.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_e_shut.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_f_sad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_f_sad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_g_happy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/Mouth_g_happy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_a_open.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_a_open.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_b_mad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_b_mad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_c_sad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_c_sad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_d_midClosed.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_d_midClosed.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_e_Closed.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_e_Closed.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_f_Closed_happy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_f_Closed_happy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_g_Closed_shy.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_g_Closed_shy.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_h_Closed_mad.obj
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Expressions_Mesh/R_eye_h_Closed_mad.obj.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Materials.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Materials/Color_toon_2.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/FBX_models/Materials/Color_toon_2.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/ChangeFaces.cs
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/ChangeFaces.cs.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/Character_Animations.cs
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/Character_Animations.cs.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/FaceAnimations.cs
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/FaceAnimations.cs.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/PlayFaceAnimations.cs
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Scripts/PlayFaceAnimations.cs.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/Color_Maps.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/Color_Maps/Color_toon_2.psd
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/Color_Maps/Color_toon_2.psd.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/Color_Maps/Expressions_2.png
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/Color_Maps/Expressions_2.png.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/UV_Maps.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/UV_Maps/UVToon_2.png
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Textures/UV_Maps/UVToon_2.png.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@Idle_Neutral.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@Idle_Neutral.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForwardTurnRight_NtrlMedium.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForwardTurnRight_NtrlMedium.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForwardTurnRight_NtrlWide.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForwardTurnRight_NtrlWide.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForward_NtrlFaceFwd.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@RunForward_NtrlFaceFwd.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForwardTurnRight_NtrlMedium.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForwardTurnRight_NtrlMedium.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForwardTurnRight_NtrlShort.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForwardTurnRight_NtrlShort.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForward_NtrlFaceFwd.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/DefaultAvatar@WalkForward_NtrlFaceFwd.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Dying.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Dying.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Jump.fbx
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Jump.fbx.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/EyesMaterial.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/EyesMaterial.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/SkinMaterial.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/SkinMaterial.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/SuitMaterial.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/SuitMaterial.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/TeethMaterial.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/TeethMaterial.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/TongueMaterial.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/TongueMaterial.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/body_color_map.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/body_color_map.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/eyes_color_map.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/eyes_color_map.mat.meta
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/face_color_map.mat
+    - Assets/Installed packages/Medieval_Toon_Character/Source/Unity_Free_Animations/Materials/face_color_map.mat.meta
+    - Assets/Inventory_Slots.png
+    - Assets/Inventory_Slots.png.meta
+    - Assets/Materials.meta
+    - Assets/Materials/Inventory_Slots.mat
+    - Assets/Materials/Inventory_Slots.mat.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/CoinGold Variant.prefab
+    - Assets/Prefabs/CoinGold Variant.prefab.meta
+    - Assets/Prefabs/Hazzard.prefab
+    - Assets/Prefabs/Hazzard.prefab.meta
+    - Assets/Prefabs/Platform.prefab
+    - Assets/Prefabs/Platform.prefab.meta
+    - Assets/Prefabs/Player1.prefab
+    - Assets/Prefabs/Player1.prefab.meta
+    - Assets/Prefabs/SimplePeople_Man_Business_White Variant.prefab
+    - Assets/Prefabs/SimplePeople_Man_Business_White Variant.prefab.meta
+    - Assets/Prefabs/Some Ore block .prefab
+    - Assets/Prefabs/Some Ore block .prefab.meta
+    - Assets/Prefabs/Some Ore block2.prefab
+    - Assets/Prefabs/Some Ore block2.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/My Game_testing.unity
+    - Assets/Scenes/My Game_testing.unity.meta
+    - Assets/Scenes/Prototype 3.unity
+    - Assets/Scenes/Prototype 3.unity.meta
+    - Assets/Scenes/World of blocks2.unity
+    - Assets/Scenes/World of blocks2.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Camera_Controller.cs
+    - Assets/Scripts/Camera_Controller.cs.meta
+    - Assets/Scripts/Generate_world1.cs
+    - Assets/Scripts/Generate_world1.cs.meta
+    - Assets/Scripts/Hazard.cs
+    - Assets/Scripts/Hazard.cs.meta
+    - Assets/Scripts/Mining_Blocks.cs
+    - Assets/Scripts/Mining_Blocks.cs.meta
+    - Assets/Scripts/PickUp.cs
+    - Assets/Scripts/PickUp.cs.meta
+    - Assets/Scripts/Player_Controler.cs
+    - Assets/Scripts/Player_Controler.cs.meta
+    - Assets/SimpleCollectiblesPack.meta
+    - Assets/SimpleCollectiblesPack/DemoScene.unity
+    - Assets/SimpleCollectiblesPack/DemoScene.unity.meta
+    - Assets/SimpleCollectiblesPack/DemoSceneSettings.lighting
+    - Assets/SimpleCollectiblesPack/DemoSceneSettings.lighting.meta
+    - Assets/SimpleCollectiblesPack/Materials.meta
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 1.mat
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 1.mat.meta
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 2.mat
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 2.mat.meta
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 3.mat
+    - Assets/SimpleCollectiblesPack/Materials/Collectibles 3.mat.meta
+    - Assets/SimpleCollectiblesPack/Materials/SwordShield.mat
+    - Assets/SimpleCollectiblesPack/Materials/SwordShield.mat.meta
+    - Assets/SimpleCollectiblesPack/Models.meta
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx.meta
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx.meta
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet3.fbx
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSet3.fbx.meta
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSwordShield.fbx
+    - Assets/SimpleCollectiblesPack/Models/CollectiblesSwordShield.fbx.meta
+    - Assets/SimpleCollectiblesPack/Prefabs.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/BarsOfGold.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/BarsOfGold.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/BarsOfSilver.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/BarsOfSilver.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Bullet.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Bullet.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/CoinGold.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/CoinGold.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/CoinSilver.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/CoinSilver.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/CollectEffectSample.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/CollectEffectSample.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gun1.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gun1.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Gun2.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Gun2.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPackGreen.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPackGreen.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPackRed.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPackRed.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPlusGreen.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPlusGreen.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPlusRed.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/HealthPlusRed.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Heart.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Heart.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/HourGlass.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/HourGlass.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/KeyGold.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/KeyGold.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/KeySilver.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/KeySilver.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleGold.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleGold.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleSilver.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleSilver.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleGold.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleGold.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleSilver 1.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleSilver 1.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleSilver.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/NoteSingleSilver.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Ring.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Ring.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Shield.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Shield.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Star.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Star.prefab.meta
+    - Assets/SimpleCollectiblesPack/Prefabs/Sword.prefab
+    - Assets/SimpleCollectiblesPack/Prefabs/Sword.prefab.meta
+    - Assets/SimpleCollectiblesPack/SimpleCollectibleScript.cs
+    - Assets/SimpleCollectiblesPack/SimpleCollectibleScript.cs.meta
+    - Assets/SimpleCollectiblesPack/Textures.meta
+    - Assets/SimpleCollectiblesPack/Textures/CollectibleSwordShield.png
+    - Assets/SimpleCollectiblesPack/Textures/CollectibleSwordShield.png.meta
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 1.png
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 1.png.meta
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png.meta
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png
+    - Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

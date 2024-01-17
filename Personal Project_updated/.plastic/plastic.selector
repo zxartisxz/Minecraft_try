@@ -1,0 +1,3 @@
+rep "Personal Project@zxartisxz@cloud"
+  path "/"
+    smartbranch "/main"
